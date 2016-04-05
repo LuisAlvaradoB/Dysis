@@ -5,6 +5,12 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%
+    String nombre;//Defino un atributo
+    nombre = request.getParameter("nombre");
+    String apellido = request.getParameter("apellido");
+    String[] h = request.getParameterValues("hobbies");
+%>
 <!DOCTYPE html>
 <html>
     <head>
