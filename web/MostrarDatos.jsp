@@ -18,6 +18,10 @@
         <title>JSP Page</title>
     </head>
     <body>
+    <center>
         <h1>Hello World!</h1>
+        
+        <a href="index.html">Volver al Index</a>
+    </center>
     </body>
 </html>
