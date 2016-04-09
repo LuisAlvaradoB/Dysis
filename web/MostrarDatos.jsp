@@ -19,7 +19,10 @@
     </head>
     <body>
     <center>
-        <h1>Hello World!</h1>
+        <h1>Despliegue de datos</h1>
+        Bienvenido Sr(a):<% out.print(nombre + " " + apellido);%>
+        <br><hr><br>
+        
         
         <a href="index.html">Volver al Index</a>
     </center>
