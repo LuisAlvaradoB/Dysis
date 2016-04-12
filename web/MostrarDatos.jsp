@@ -22,7 +22,7 @@
         <h1>Despliegue de datos</h1>
         Bienvenido Sr(a):<% out.print(nombre + " " + apellido);%>
         <br><hr><br>
-        
+        <table width="60%" border="0"></table>
         
         <a href="index.html">Volver al Index</a>
     </center>
