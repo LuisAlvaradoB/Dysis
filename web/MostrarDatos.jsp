@@ -23,6 +23,10 @@
         Bienvenido Sr(a):<% out.print(nombre + " " + apellido);%>
         <br><hr><br>
         <table width="60%" border="0"></table>
+        <tr>
+                <td>Nombre</td>
+                <td><% out.print(nombre);%></td>
+        </tr>
         
         <a href="index.html">Volver al Index</a>
     </center>
