@@ -27,6 +27,10 @@
                 <td>Nombre</td>
                 <td><% out.print(nombre);%></td>
         </tr>
+        <tr>
+                <td>Apellido</td>
+                <td><%= apellido%></td>
+            </tr>  
         
         <a href="index.html">Volver al Index</a>
     </center>
