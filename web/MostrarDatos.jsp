@@ -31,6 +31,49 @@
                 <td>Apellido</td>
                 <td><%= apellido%></td>
             </tr>  
+            
+         <tr>
+                <td>Sexo</td>
+                <td><%= request.getParameter("sexo")%>  </td>
+            </tr>
+            <tr>
+                <td>Hobbies</td>
+                <td>
+
+                    <%
+                        if (h != null) {
+                            for (int i = 0; i < h.length; i++) {
+                                out.print(h[i] + "<br>");
+                            }
+                        }
+                        else
+                        {
+                            out.print("No Hay Elección");
+                        }
+                    %>
+
+                </td>
+            </tr>
+            <tr>
+                <td>Contraseña </td>
+                <td><%=request.getParameter("pass") %></td>
+            </tr>
+            <tr>
+                <td>Ciudad de Nacimiento</td>
+                <td><%=request.getParameter("cn")%></td>
+            </tr>
+            <tr>
+                <td>Elija Marca de Auto</td>
+                <td><%=request.getParameter("ma")%>  </td>
+            </tr>
+            <tr>        
+                <td>Adjunte Liquidación</td>
+                <td><%=request.getParameter("adjunto")%></td>
+            </tr>
+            <tr>
+                <td>Fecha de Nacimiento</td>
+                <td><% out.print(request.getParameter("fn"));%></td>
+            </tr>
         
         <a href="index.html">Volver al Index</a>
     </center>
