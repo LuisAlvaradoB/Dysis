@@ -71,9 +71,7 @@
                 <td><%=request.getParameter("adjunto")%></td>
             </tr>
             <tr>
-                <td>Fecha de Nacimiento</td>
-                <td><% out.print(request.getParameter("fn"));%></td>
-            </tr>
+                
         
         <a href="index.html">Volver al Index</a>
     </center>
