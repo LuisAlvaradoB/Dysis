@@ -23,12 +23,8 @@
         Bienvenido Sr(a):<% out.print(nombre + " " + apellido);%>
         <br><hr><br>
         <table width="60%" border="0"></table>
-        <tr>
-                <td>Nombre</td>
-                <td><% out.print(nombre);%></td>
-        </tr>
-        <tr>
-                <td>Apellido</td>
+        
+        <td>Apellido</td>
                 <td><%= apellido%></td>
             </tr>  
             
