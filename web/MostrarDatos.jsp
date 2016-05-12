@@ -17,7 +17,7 @@
         <h1>Despliegue de datos</h1>
         Bienvenido Sr(a):<% out.print(nombre + " " + apellido);%>
         <br><hr><br>
-        <table width="60%" border="0"></table>
+        <table width="60%" border="1px"></table>
         
         <td>Apellido</td>
                 <td><%= apellido%></td>
