@@ -29,6 +29,9 @@
             </tr>
             <tr>
                 <td>Hobbies</td>
+                
+                <td>Comida preferida</td>
+                
                 <td>
 
                     <%
