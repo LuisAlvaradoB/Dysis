@@ -32,6 +32,7 @@
                 
                 <td>Comida preferida</td>
                 <td>Deporte Favorito</td>
+                <td>Indique edad</td>
                 
                 <td>
 
