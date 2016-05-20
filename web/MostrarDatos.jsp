@@ -34,7 +34,7 @@
                 <td>Deporte Favorito</td>
                 <td>Indique edad</td>
                 <td>Indique la religión</td>
-                
+                <td>Indique patologías</td>
                 
                 <td>
 
